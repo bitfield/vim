@@ -1,0 +1,20 @@
+{
+  "name": "bitfield-vim",
+  "version": "0.1.1",
+  "author": "John Arundel",
+  "summary": "Manage Vim with some useful plugins",
+  "license": "Apache-2.0",
+  "source": "https://github.com/bitfield/vim.git",
+  "project_page": "https://github.com/bitfield/vim",
+  "tags": ["vim"],
+  "dependencies": [
+    {"name":"puppetlabs/stdlib","version_requirement":">= 4.15.0"},
+    {"name":"puppetlabs/vcsrepo","version_requirement":">= 1.5.0"}
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [ "16.04" ]
+    }
+  ]
+}
